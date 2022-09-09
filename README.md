@@ -1,7 +1,5 @@
 # PortfolioCV
 
-# Robotic-projects
-
 # O que é este repositório? What is this repository?
 
 
