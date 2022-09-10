@@ -44,11 +44,37 @@ nav ul
 	display: flex;
 }
 
+/* links do navegador */
 nav ul li a
 {
 	margin: 30px;
-	font-family: myriad pro regular;
+	font-family:'Courier New', Courier, monospace;
 	color: #505050;
 	font-size: 15px;
 	font-weight: 700;
+}
+
+/* Estilo Textos */
+
+/*p:nth-child(1): referencia q estou mexendo no primeiro paragrafo*/
+.apresentacao p:nth-child(1) {
+	font-family: calibri;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 20px;
+}
+
+.apresentacao p:nth-child(2) {
+	font-family: calibri;
+	font-weight: bold;
+	color: 	#3b3c36;
+	letter-spacing: 1px;
+	font-size:15px;
+	line-height: 5px;
+}
+
+.apresentacao p:nth-child(3) {
+
+	font-family: calibri;
+	color: #7e7d7d;
 }
