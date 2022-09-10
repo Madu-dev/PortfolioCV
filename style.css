@@ -1,35 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap'); /*fonte da google*/
 
-body
-{
+body {
 	background-color: #f6f5f5;
 	margin-right: 0px;
 	padding: 0px;
 }
 
-ul
-{
-	list-style: none;
+ul {
+	list-style: none; /*tira o sublinhado*/
 }
 
-a
-{
+a {
 	text-decoration: none;
 }
 
-section
-{
+section {
 	width: 100%;
 	height: 95vh;
-	background-image: url("imgs/bg.png");
+	background-image: url("imgs/bgAmareloBranco.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
 
 /* Estilo navegador */
-nav
-{
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -39,14 +34,12 @@ nav
 	padding: 0px 5%;
 }
 
-nav ul
-{
+nav ul {
 	display: flex;
 }
 
 /* links do navegador */
-nav ul li a
-{
+nav ul li a {
 	margin: 30px;
 	font-family:'Courier New', Courier, monospace;
 	color: #505050;
@@ -54,11 +47,24 @@ nav ul li a
 	font-weight: 700;
 }
 
+.nomeLateral
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 22px;
+}
+
+.active
+{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+
 /* Estilo Textos */
 
 /*p:nth-child(1): referencia q estou mexendo no primeiro paragrafo*/
 .apresentacao p:nth-child(1) {
-	font-family: calibri;
+	font-family: myriad pro regular;
 	font-weight: bold;
 	color: #6d6d6d;
 	font-size: 20px;
@@ -67,14 +73,116 @@ nav ul li a
 .apresentacao p:nth-child(2) {
 	font-family: calibri;
 	font-weight: bold;
-	color: 	#3b3c36;
 	letter-spacing: 1px;
-	font-size:15px;
-	line-height: 5px;
+	color: #000;
+	font-size: 60px;
 }
 
 .apresentacao p:nth-child(3) {
 
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.apresentacao {
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+
+.apresentacao {
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+
+.apresentacao button {
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
 	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+
+.btnSaibaMais {
+	border: 2px solid #373636;
+	color: #373636;
+}
+
+.btnDownload {
+	background-color: #0b0b0b;
+	border: none;
+	color: #ffffff;;
+}
+
+button:active {
+	transform: scale(1.1);
+}
+
+.imgBackground {
+	height: 490px;
+	position: absolute;
+	bottom: 40px;
+	left: 67%;
+	transform: translateX(-70%);
+}
+
+.conteudoSobreMim {
+	width: 80%;
+	height: 330px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7% auto 20px auto;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.conteudoSobreMim img {
+	height: 320px;
+}
+
+.sobreMim {
+	width: 550px;
+}
+
+.conteudoSobreMim p:nth-child(1){
+	color: #403e3e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 0px;
+}
+
+.conteudoSobreMim p:nth-child(2){
+	color: #3e3e3e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 5px;
+}
+
+.conteudoSobreMim p:nth-child(3), 
+.conteudoSobreMim p:nth-child(4){
 	color: #7e7d7d;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+}
+
+.sobreMim button {
+	width: 120px;
+	height: 40px;
+	color: #ffffff;
+	outline: none;
+	border: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #252623;
 }
