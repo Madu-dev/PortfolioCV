@@ -231,7 +231,7 @@ button:active {
 }
 
 .projetos .conteudo .box:hover h2 {
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 .projetos .conteudo .box p {
@@ -240,7 +240,7 @@ button:active {
 }
 
 .projetos .conteudo .box:hover p {
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 
